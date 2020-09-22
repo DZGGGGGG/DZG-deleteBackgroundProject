@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0846782519D41700404DE0 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0846772519D41700404DE0 /* 1.png */; };
+		2A08467F2519DF8800404DE0 /* cubeMap.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A08467E2519DF8800404DE0 /* cubeMap.c */; };
+		2A0846812519F47200404DE0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0846802519F47200404DE0 /* 2.png */; };
 		2A6535E22514649D00A7E23A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6535E12514649D00A7E23A /* AppDelegate.m */; };
-		2A6535E52514649D00A7E23A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6535E42514649D00A7E23A /* SceneDelegate.m */; };
-		2A6535E82514649D00A7E23A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6535E72514649D00A7E23A /* ViewController.m */; };
-		2A6535EB2514649D00A7E23A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6535E92514649D00A7E23A /* Main.storyboard */; };
+		2A6535E82514649D00A7E23A /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A6535E72514649D00A7E23A /* ViewController.mm */; };
 		2A6535ED2514649E00A7E23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A6535EC2514649E00A7E23A /* Assets.xcassets */; };
 		2A6535F02514649E00A7E23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6535EE2514649E00A7E23A /* LaunchScreen.storyboard */; };
 		2A6535F32514649E00A7E23A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6535F22514649E00A7E23A /* main.m */; };
 		2A6535FD2514649E00A7E23A /* deleteBackgroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6535FC2514649E00A7E23A /* deleteBackgroundTests.m */; };
 		2A6536082514649E00A7E23A /* deleteBackgroundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6536072514649E00A7E23A /* deleteBackgroundUITests.m */; };
+		2AC683CF251A024800D87AEB /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2AC683CE251A024800D87AEB /* 3.jpeg */; };
+		82EFFA4756832D1FC9890510 /* libPods-deleteBackground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F85C2F47630CC09609B4C0A /* libPods-deleteBackground.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A0846772519D41700404DE0 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2A08467E2519DF8800404DE0 /* cubeMap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cubeMap.c; sourceTree = "<group>"; };
+		2A0846802519F47200404DE0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		2A6535DD2514649D00A7E23A /* deleteBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deleteBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6535E02514649D00A7E23A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A6535E12514649D00A7E23A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2A6535E32514649D00A7E23A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		2A6535E42514649D00A7E23A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		2A6535E62514649D00A7E23A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2A6535E72514649D00A7E23A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2A6535EA2514649D00A7E23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A6535E72514649D00A7E23A /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		2A6535EC2514649E00A7E23A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A6535EF2514649E00A7E23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A6535F12514649E00A7E23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +57,10 @@
 		2A6536032514649E00A7E23A /* deleteBackgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deleteBackgroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6536072514649E00A7E23A /* deleteBackgroundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = deleteBackgroundUITests.m; sourceTree = "<group>"; };
 		2A6536092514649E00A7E23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC683CE251A024800D87AEB /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		5F85C2F47630CC09609B4C0A /* libPods-deleteBackground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-deleteBackground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1F8924536577FBA5A99425 /* Pods-deleteBackground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deleteBackground.release.xcconfig"; path = "Target Support Files/Pods-deleteBackground/Pods-deleteBackground.release.xcconfig"; sourceTree = "<group>"; };
+		D5E1FD8C6FEA74C9389587B1 /* Pods-deleteBackground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deleteBackground.debug.xcconfig"; path = "Target Support Files/Pods-deleteBackground/Pods-deleteBackground.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82EFFA4756832D1FC9890510 /* libPods-deleteBackground.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A08467C2519DF7300404DE0 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				2A08467E2519DF8800404DE0 /* cubeMap.c */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		2A6535D42514649C00A7E23A = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +104,8 @@
 				2A6535FB2514649E00A7E23A /* deleteBackgroundTests */,
 				2A6536062514649E00A7E23A /* deleteBackgroundUITests */,
 				2A6535DE2514649D00A7E23A /* Products */,
+				82651C0136D75921211C4773 /* Pods */,
+				6299921E37BBFC621FF83BFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,13 +122,14 @@
 		2A6535DF2514649D00A7E23A /* deleteBackground */ = {
 			isa = PBXGroup;
 			children = (
+				2A08467C2519DF7300404DE0 /* image */,
 				2A6535E02514649D00A7E23A /* AppDelegate.h */,
 				2A6535E12514649D00A7E23A /* AppDelegate.m */,
-				2A6535E32514649D00A7E23A /* SceneDelegate.h */,
-				2A6535E42514649D00A7E23A /* SceneDelegate.m */,
 				2A6535E62514649D00A7E23A /* ViewController.h */,
-				2A6535E72514649D00A7E23A /* ViewController.m */,
-				2A6535E92514649D00A7E23A /* Main.storyboard */,
+				2A6535E72514649D00A7E23A /* ViewController.mm */,
+				2A0846802519F47200404DE0 /* 2.png */,
+				2A0846772519D41700404DE0 /* 1.png */,
+				2AC683CE251A024800D87AEB /* 3.jpeg */,
 				2A6535EC2514649E00A7E23A /* Assets.xcassets */,
 				2A6535EE2514649E00A7E23A /* LaunchScreen.storyboard */,
 				2A6535F12514649E00A7E23A /* Info.plist */,
@@ -137,6 +156,23 @@
 			path = deleteBackgroundUITests;
 			sourceTree = "<group>";
 		};
+		6299921E37BBFC621FF83BFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F85C2F47630CC09609B4C0A /* libPods-deleteBackground.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82651C0136D75921211C4773 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5E1FD8C6FEA74C9389587B1 /* Pods-deleteBackground.debug.xcconfig */,
+				7B1F8924536577FBA5A99425 /* Pods-deleteBackground.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A65360C2514649E00A7E23A /* Build configuration list for PBXNativeTarget "deleteBackground" */;
 			buildPhases = (
+				A8FB65D3B2B8473496533D00 /* [CP] Check Pods Manifest.lock */,
 				2A6535D92514649D00A7E23A /* Sources */,
 				2A6535DA2514649D00A7E23A /* Frameworks */,
 				2A6535DB2514649D00A7E23A /* Resources */,
@@ -240,9 +277,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0846782519D41700404DE0 /* 1.png in Resources */,
 				2A6535F02514649E00A7E23A /* LaunchScreen.storyboard in Resources */,
 				2A6535ED2514649E00A7E23A /* Assets.xcassets in Resources */,
-				2A6535EB2514649D00A7E23A /* Main.storyboard in Resources */,
+				2AC683CF251A024800D87AEB /* 3.jpeg in Resources */,
+				2A0846812519F47200404DE0 /* 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,15 +301,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A8FB65D3B2B8473496533D00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-deleteBackground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A6535D92514649D00A7E23A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A6535E82514649D00A7E23A /* ViewController.m in Sources */,
+				2A6535E82514649D00A7E23A /* ViewController.mm in Sources */,
 				2A6535E22514649D00A7E23A /* AppDelegate.m in Sources */,
 				2A6535F32514649E00A7E23A /* main.m in Sources */,
-				2A6535E52514649D00A7E23A /* SceneDelegate.m in Sources */,
+				2A08467F2519DF8800404DE0 /* cubeMap.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +370,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2A6535E92514649D00A7E23A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A6535EA2514649D00A7E23A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2A6535EE2514649E00A7E23A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,33 +493,37 @@
 		};
 		2A65360D2514649E00A7E23A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5E1FD8C6FEA74C9389587B1 /* Pods-deleteBackground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = deleteBackground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = iamge.deleteBackground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2A65360E2514649E00A7E23A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B1F8924536577FBA5A99425 /* Pods-deleteBackground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = deleteBackground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = iamge.deleteBackground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
