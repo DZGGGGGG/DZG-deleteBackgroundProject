@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
-=======
-		2A0846782519D41700404DE0 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0846772519D41700404DE0 /* 1.png */; };
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
 		2A08467F2519DF8800404DE0 /* cubeMap.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A08467E2519DF8800404DE0 /* cubeMap.c */; };
 		2A0846812519F47200404DE0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0846802519F47200404DE0 /* 2.png */; };
 		2A6535E22514649D00A7E23A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6535E12514649D00A7E23A /* AppDelegate.m */; };
@@ -21,12 +17,9 @@
 		2A6535FD2514649E00A7E23A /* deleteBackgroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6535FC2514649E00A7E23A /* deleteBackgroundTests.m */; };
 		2A6536082514649E00A7E23A /* deleteBackgroundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6536072514649E00A7E23A /* deleteBackgroundUITests.m */; };
 		2AC683CF251A024800D87AEB /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2AC683CE251A024800D87AEB /* 3.jpeg */; };
-<<<<<<< HEAD
 		392CC73D251A44FB00755C5B /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 392CC73C251A44FB00755C5B /* 4.png */; };
 		392CC73F251A456100755C5B /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 392CC73E251A456100755C5B /* 5.png */; };
 		392CC743251A47B700755C5B /* UIColor+colorEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 392CC742251A47B700755C5B /* UIColor+colorEx.m */; };
-=======
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
 		82EFFA4756832D1FC9890510 /* libPods-deleteBackground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F85C2F47630CC09609B4C0A /* libPods-deleteBackground.a */; };
 /* End PBXBuildFile section */
 
@@ -48,10 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
-=======
-		2A0846772519D41700404DE0 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
 		2A08467E2519DF8800404DE0 /* cubeMap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cubeMap.c; sourceTree = "<group>"; };
 		2A0846802519F47200404DE0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		2A6535DD2514649D00A7E23A /* deleteBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deleteBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,13 +59,10 @@
 		2A6536072514649E00A7E23A /* deleteBackgroundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = deleteBackgroundUITests.m; sourceTree = "<group>"; };
 		2A6536092514649E00A7E23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AC683CE251A024800D87AEB /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		392CC73C251A44FB00755C5B /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		392CC73E251A456100755C5B /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		392CC741251A47B700755C5B /* UIColor+colorEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+colorEx.h"; sourceTree = "<group>"; };
 		392CC742251A47B700755C5B /* UIColor+colorEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+colorEx.m"; sourceTree = "<group>"; };
-=======
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
 		5F85C2F47630CC09609B4C0A /* libPods-deleteBackground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-deleteBackground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1F8924536577FBA5A99425 /* Pods-deleteBackground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deleteBackground.release.xcconfig"; path = "Target Support Files/Pods-deleteBackground/Pods-deleteBackground.release.xcconfig"; sourceTree = "<group>"; };
 		D5E1FD8C6FEA74C9389587B1 /* Pods-deleteBackground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deleteBackground.debug.xcconfig"; path = "Target Support Files/Pods-deleteBackground/Pods-deleteBackground.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,20 +94,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-<<<<<<< HEAD
 		2A08467C2519DF7300404DE0 /* coreimage */ = {
-=======
-		2A08467C2519DF7300404DE0 /* image */ = {
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
 			isa = PBXGroup;
 			children = (
 				2A08467E2519DF8800404DE0 /* cubeMap.c */,
 			);
-<<<<<<< HEAD
 			path = coreimage;
-=======
-			path = image;
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
 			sourceTree = "<group>";
 		};
 		2A6535D42514649C00A7E23A = {
@@ -149,23 +127,15 @@
 		2A6535DF2514649D00A7E23A /* deleteBackground */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				392CC740251A478D00755C5B /* extention */,
 				2A08467C2519DF7300404DE0 /* coreimage */,
-=======
-				2A08467C2519DF7300404DE0 /* image */,
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
 				2A6535E02514649D00A7E23A /* AppDelegate.h */,
 				2A6535E12514649D00A7E23A /* AppDelegate.m */,
 				2A6535E62514649D00A7E23A /* ViewController.h */,
 				2A6535E72514649D00A7E23A /* ViewController.mm */,
 				2A0846802519F47200404DE0 /* 2.png */,
-<<<<<<< HEAD
 				392CC73E251A456100755C5B /* 5.png */,
 				392CC73C251A44FB00755C5B /* 4.png */,
-=======
-				2A0846772519D41700404DE0 /* 1.png */,
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
 				2AC683CE251A024800D87AEB /* 3.jpeg */,
 				2A6535EC2514649E00A7E23A /* Assets.xcassets */,
 				2A6535EE2514649E00A7E23A /* LaunchScreen.storyboard */,
@@ -193,7 +163,6 @@
 			path = deleteBackgroundUITests;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
 		392CC740251A478D00755C5B /* extention */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,8 +172,6 @@
 			path = extention;
 			sourceTree = "<group>";
 		};
-=======
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
 		6299921E37BBFC621FF83BFD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,12 +293,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				392CC73D251A44FB00755C5B /* 4.png in Resources */,
 				392CC73F251A456100755C5B /* 5.png in Resources */,
-=======
-				2A0846782519D41700404DE0 /* 1.png in Resources */,
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
 				2A6535F02514649E00A7E23A /* LaunchScreen.storyboard in Resources */,
 				2A6535ED2514649E00A7E23A /* Assets.xcassets in Resources */,
 				2AC683CF251A024800D87AEB /* 3.jpeg in Resources */,
@@ -388,10 +351,7 @@
 				2A6535E82514649D00A7E23A /* ViewController.mm in Sources */,
 				2A6535E22514649D00A7E23A /* AppDelegate.m in Sources */,
 				2A6535F32514649E00A7E23A /* main.m in Sources */,
-<<<<<<< HEAD
 				392CC743251A47B700755C5B /* UIColor+colorEx.m in Sources */,
-=======
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
 				2A08467F2519DF8800404DE0 /* cubeMap.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-<<<<<<< HEAD
 #import "UIColor+colorEx.h"
 #import "coreimage/cubeMap.c"
 
@@ -15,11 +14,6 @@
 #define KdeviceWidth UIScreen.mainScreen.bounds.size.width
 #define Kdeviceheight UIScreen.mainScreen.bounds.size.height
 #define navBarHeight self.navigationController.navigationBar.frame.size.height
-=======
-#import "image/cubeMap.c"
-#define KdeviceWidth UIScreen.mainScreen.bounds.size.width
-#define Kdeviceheight UIScreen.mainScreen.bounds.size.height
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
 #define statusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
 
 @interface ViewController ()
@@ -36,32 +30,18 @@
     [self setUI];
 }
 - (void)setUI{
-<<<<<<< HEAD
     self.title = @"首页";
-    
-    NSLog(@"%f",self.navigationController.navigationBar.frame.size.height);
-=======
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
     self.view.backgroundColor = UIColor.whiteColor;
     UIButton *choosePhoto = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 300, 80)];
     [choosePhoto setTitle:@"生成单色底照片" forState:UIControlStateNormal];
     choosePhoto.center = CGPointMake(KdeviceWidth / 2, Kdeviceheight / 2);
     [choosePhoto addTarget:self action:@selector(chooseImage:) forControlEvents:UIControlEventTouchUpInside];
     choosePhoto.backgroundColor = UIColor.redColor;
-    
-<<<<<<< HEAD
     UILabel *oldLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, statusBarHeight + navBarHeight + 20, KdeviceWidth, 15)];
     oldLabel.text = @"原图";
     oldLabel.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:oldLabel];
     self.personImage = [[UIImageView alloc]initWithFrame:CGRectMake(KdeviceWidth / 2 - 75, statusBarHeight + navBarHeight + 55, 150, 180)];
-=======
-    UILabel *oldLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, statusBarHeight + 45, KdeviceWidth, 15)];
-    oldLabel.text = @"原图";
-    oldLabel.textAlignment = NSTextAlignmentCenter;
-    [self.view addSubview:oldLabel];
-    self.personImage = [[UIImageView alloc]initWithFrame:CGRectMake(KdeviceWidth / 2 - 75, statusBarHeight + 80, 150, 180)];
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
     self.personImage.image = [UIImage imageNamed:@"3.jpeg"];
     [self.view addSubview:self.personImage];
     self.view.backgroundColor = UIColor.orangeColor;
@@ -75,7 +55,6 @@
 - (void)chooseImage:(UIButton *)btn{
     UIAlertController *chooseAlert = [UIAlertController alertControllerWithTitle:@"请选择" message:@"选择将要生成的底色照片" preferredStyle:UIAlertControllerStyleActionSheet];
     UIAlertAction *red = [UIAlertAction actionWithTitle:@"红底" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-<<<<<<< HEAD
         self.willChangeColor = [UIColor colorRGBA:255 Green:0 Blue:0 Alpha:1];
         [self CreateImage];
     }];
@@ -85,17 +64,6 @@
     }];
     UIAlertAction *white = [UIAlertAction actionWithTitle:@"白底" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         self.willChangeColor = [UIColor colorRGBA:255 Green:255 Blue:255 Alpha:1];
-=======
-        self.willChangeColor = [UIColor redColor];
-        [self CreateImage];
-    }];
-    UIAlertAction *blue = [UIAlertAction actionWithTitle:@"蓝底" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        self.willChangeColor = [UIColor systemBlueColor];
-        [self CreateImage];
-    }];
-    UIAlertAction *white = [UIAlertAction actionWithTitle:@"白底" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        self.willChangeColor = [UIColor colorWithWhite:20 alpha:1];
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
         [self CreateImage];
     }];
     UIAlertAction *cancle = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
@@ -107,16 +75,12 @@
     [self presentViewController:chooseAlert animated:YES completion:nil];
 }
 - (void)CreateImage{
-<<<<<<< HEAD
     //小1寸照片尺寸：2.2cm*3.2cm 390*260（像素
     //（普通）1寸照片尺寸：2.5cm*3.5cm 413*295（像素）
     //大1寸照片尺寸：3.3cm*4.8cm 567*390（像素）
     NSLog(@"点击按钮");
     CGPoint leftTopPoint = CGPointMake(self.personImage.frame.origin.x + 10, self.personImage.frame.origin.y + 10);
 //    CGPoint rightTopPoint = CGPointMake(self.personImage.frame.origin.x + self.personImage.frame.size.width - 10, self.personImage.frame.origin.y + 10);
-=======
-    NSLog(@"点击按钮");
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
     if (!self.willChangeColor){
         UIAlertController *TishiAlert = [UIAlertController alertControllerWithTitle:@"提示" message:@"未选择要生成的底色" preferredStyle:UIAlertControllerStyleActionSheet];
 
@@ -124,13 +88,8 @@
         }];
         [TishiAlert addAction:okAction];
         [self presentViewController:TishiAlert animated:YES completion:nil];
-<<<<<<< HEAD
         return;
     }
-=======
-    }
-    CGPoint leftTopPoint = CGPointMake(self.personImage.frame.origin.x + 10, self.personImage.frame.origin.y + 10);
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
     NSArray *colorRGBArray = [self colorAtPoint:leftTopPoint];
     UIImage *outImage = [self removeColorWithMaxR:[colorRGBArray[0] floatValue] +20.0 MinR:[colorRGBArray[0] floatValue] -20.0 MaxG:[colorRGBArray[1] floatValue] + 20.0 MixG:[colorRGBArray[1] floatValue] - 20.0 MaxB:[colorRGBArray[2] floatValue] + 20.0 MinB:[colorRGBArray[2] floatValue] - 20.0 image:self.personImage.image];
     self.createImage.image = outImage;
@@ -141,7 +100,6 @@
     newLabel.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:newLabel];
 }
-<<<<<<< HEAD
 - (UIImage *)scaleToSize:(UIImage *)img size:(CGSize)size{
     // 创建一个bitmap的context
     // 并把它设置成为当前正在使用的context
@@ -155,8 +113,6 @@
     // 返回新的改变大小后的图片
     return scaledImage;
 }
-=======
->>>>>>> 49c3c05d60cf19b8ea71d53d0f855da0283dee8d
 - (UIImage *)removeColorWithMaxR:(float)MaxR MinR:(float)MinR MaxG:(float)MaxG MixG:(float)MinG MaxB:(float)MaxB MinB:(float)MinB image:(UIImage *)image{
     const int imageWidth = image.size.width;
     const int imageHeight = image.size.height;
